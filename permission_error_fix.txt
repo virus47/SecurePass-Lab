@@ -1,3 +1,0 @@
-### If permissions are still broken, auto-generation will still fail. So first fix ownership once:
-
-sudo chown -R $USER:$USER /home/virus47/Public/password_audit_lab
