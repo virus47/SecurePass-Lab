@@ -63,3 +63,5 @@ python3 run.py --mode audit-demo-users --delay 20
 python3 run.py --mode check-password --password "Welcome123"
 python3 run.py --mode breach-list-check --password "123456"
 
+
+**IF YOU WANT TO ADD CUSTOM WORDLIST YOU CAN ALSO DO SO BY ADDING YOUR WORDLIST IN "securepass-lab/data/wordlists/" DIRECTORY.**
