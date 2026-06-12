@@ -16,18 +16,22 @@ SecurePass Lab is an offline password health, exposure, and demo audit toolkit f
 ### Generate demo users
 ```bash
 python3 run.py --mode generate --users 12
+```
 
 ### Audit demo users
 ```bash
 python3 run.py --mode audit-demo-users --delay 20
+```
 
 ### Check a password
 ```bash
 python3 run.py --mode check-password --password "Welcome123"
+```
 
 ### Check a password again local wordlist
 ```bash
 python3 run.py --mode breach-list-check --password "123456"
+```
 
 ### Setup on Linux
 ```bash
@@ -36,7 +40,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python3 run.py --mode generate --users 12
 python3 run.py --mode audit-demo-users
-
+```
 
 ### Setup on Termux
 ```bash
@@ -45,14 +49,13 @@ pkg install python
 pip install -r requirements.txt
 python3 run.py --mode generate --users 12
 python3 run.py --mode check-password
-
+```
 
 ### Safety - This project is for offline defensive education and local dummy/demo data only.
-```bash
 
 ---
 
-## How to run
+## How to install & run
 
 ```bash
 python3 -m venv .venv
@@ -62,6 +65,7 @@ python3 run.py --mode generate --users 12
 python3 run.py --mode audit-demo-users --delay 20
 python3 run.py --mode check-password --password "Welcome123"
 python3 run.py --mode breach-list-check --password "123456"
-
 ```
+
+
 **YOU CAN ALSO ADD YOUR CUSTOM WORDLIST IN "securepass-lab/data/wordlists/" DIRECTORY.**
