@@ -28,7 +28,7 @@ python3 run.py --mode audit-demo-users --delay 20
 python3 run.py --mode check-password --password "Welcome123"
 ```
 
-### Check a password again local wordlist
+### Check a password in local breach wordlist
 ```bash
 python3 run.py --mode breach-list-check --password "123456"
 ```
