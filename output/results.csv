@@ -1,0 +1,3 @@
+username,hash_type,weak_password_detected,matched_from_demo_wordlist,elapsed_seconds,notes
+user_01,sha256_unsalted,True,True,0.020196,Demo local audit completed.
+user_02,sha256_salted,True,True,0.020173,Demo local audit completed.

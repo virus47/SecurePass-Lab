@@ -1,0 +1,18 @@
+[
+  {
+    "username": "user_01",
+    "hash_type": "sha256_unsalted",
+    "weak_password_detected": true,
+    "matched_from_demo_wordlist": true,
+    "elapsed_seconds": 0.02019552799174562,
+    "notes": "Demo local audit completed."
+  },
+  {
+    "username": "user_02",
+    "hash_type": "sha256_salted",
+    "weak_password_detected": true,
+    "matched_from_demo_wordlist": true,
+    "elapsed_seconds": 0.02017300098668784,
+    "notes": "Demo local audit completed."
+  }
+]
