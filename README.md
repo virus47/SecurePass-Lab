@@ -64,4 +64,4 @@ python3 run.py --mode check-password --password "Welcome123"
 python3 run.py --mode breach-list-check --password "123456"
 
 
-**IF YOU WANT TO ADD CUSTOM WORDLIST YOU CAN ALSO DO SO BY ADDING YOUR WORDLIST IN "securepass-lab/data/wordlists/" DIRECTORY.**
+**YOU CAN ALSO ADD YOUR CUSTOM WORDLIST IN "securepass-lab/data/wordlists/" DIRECTORY.**
